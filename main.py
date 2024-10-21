@@ -1,1 +1,0 @@
-print("Aoba 1")
