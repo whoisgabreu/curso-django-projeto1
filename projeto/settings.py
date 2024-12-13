@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-_9ka^^mgbmc(o709%et7s2g9d1$xmr2i!&&v2i42jp9q@fe-qz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "172.16.81.116"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'recipes',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
